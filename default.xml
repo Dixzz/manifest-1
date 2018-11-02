@@ -598,7 +598,7 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- GZOSP manifest -->
-  <include name="devilian-default.xml" />
+  <include name="devilian_default.xml" />
 
   <!-- CAF manifest -->
   <include name="caf_default.xml" />
