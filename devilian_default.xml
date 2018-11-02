@@ -78,6 +78,5 @@
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="gzosp" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
   <project path="vendor/devilian" name="android_vendor_devilian" remote="devilian" />
-  <project path="vendor/rising" name="android_vendor_rising" remote="devilian"/>
 
 </manifest>
