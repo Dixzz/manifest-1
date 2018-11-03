@@ -15,7 +15,7 @@
            fetch="https://github.com/GZOSP" />
 
   <!-- GZOSP -->
-  <project path="manifest" name="platform_manifest" remote="devilian" />
+  <project path="manifest" name="manifest" remote="devilian" />
   <project path="build/make" name="android_build" remote="devilian" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
