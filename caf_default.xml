@@ -20,7 +20,7 @@
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="gzosp" revision="9.0-caf" />
 
   <!-- Device -->
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="gzosp" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="devilian" />
 
 
   <!--Keymaster -->
