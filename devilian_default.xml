@@ -13,7 +13,11 @@
    <remote name="gzosp"
            revision="9.0"
            fetch="https://github.com/GZOSP" />
-
+  <!-- Lineage remote -->	
+  <remote name="lineage"
+	   revision="lineage-16.0"
+	   fetch="https://github.com/LineageOS" />
+	  
   <!-- GZOSP -->
   <project path="manifest" name="manifest" remote="devilian" />
   <project path="build/make" name="android_build" remote="devilian" >
@@ -78,5 +82,6 @@
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="gzosp" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
   <project path="vendor/devilian" name="android_vendor_devilian" remote="devilian" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="lineage" /> 
 
 </manifest>
