@@ -1,4 +1,4 @@
-                        ![Devilian OS](https://preview.ibb.co/kGMFHq/IMG-20181109-211428-403.png)
+![Devilian OS](https://preview.ibb.co/kGMFHq/IMG-20181109-211428-403.png)
 
 
 
