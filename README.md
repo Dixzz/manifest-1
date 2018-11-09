@@ -1,27 +1,36 @@
-<img src="https://github.com/Devilian-Os/Logos/blob/pie/Artboard%201.jpg" >
-</p>
+(https://preview.ibb.co/kGMFHq/IMG-20181109-211428-403.png)
+
 
 
 
 
                                                     >>  DevilianOS <<
 
-A ROM Based on Aosp, with features from almost all Custom ROMs available. 
+An AOSP based rom.
+
+Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
 
 # ======== # ======== # ======== # ======== #
 
 To initialize your local repository, use this command:
 
-    repo init -u https://github.com/Devilian-Os/manifest -b pie
+    $  repo init -u https://github.com/Devilian-Os/manifest -b pie
 
 To sync the repository, use this command:
 
-    repo sync -f -c -j8 --force-sync --no-clone-bundle --no-tags
+    $  repo sync --force-sync
 
-To Build, use following commands:
+To Build, use following command this will create the required environment.
 
-    . build/envsetup.sh && lunch devilian_<device>-userdebug && make bacon
+    $  build/envsetup.sh 
+    
+For Official Devices   
+This command will load all of our proprietary makefiles for compiling
+Run this command:
+    $  lunch && make bacon
 
-Change device with your device code name. Ex.- mido, oneplus3, dumpling, etc.
-	
+For unofficial builds.
+Change device with your device code name. Ex.- mido, tissot, dumpling, etc.
+    $  lunch_<devicecodename>-<userdebug/eng) && make bacon
+
 # ======== # ======== # ======== # ======== #
